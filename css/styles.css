@@ -107,7 +107,7 @@ footer p{
 
 
 
-
+/*nosotros*/
 
 
 .section5{
@@ -142,7 +142,7 @@ footer p{
 
 
 
-
+/*servicios*/
 
 
 .TServicios{
@@ -185,6 +185,7 @@ footer p{
 
 
 
+/*contacto*/
 
 
 .padreContacto{
@@ -221,8 +222,6 @@ input type[text]{
     padding-top: 20px;
     width: 63%;
 }
-
-
 .contenedorNegroMapa{
     display: flex;
     justify-content:center;
@@ -236,4 +235,291 @@ input type[text]{
     text-align: center;
 }
 
+
+
+@media (max-width:1200px){
+    
+    .cabecera{
+        background-position-y: 0;
+    }
+    .section3{
+        padding: 40px;
+    }
+    
+    .section5{
+        width: 58%;    
+    }
+    .section6{
+        padding: 20px 20px 20px 20px; 
+        width: 58%;  
+        height: 210px;   
+    }
+    .section7{
+        width: 55%;
+        padding: 20px 20px 20px 20px;
+    }
+    .img{
+        width: 90%;
+    }
+    
+    .TServicios{
+        margin: 10px 0 10px 80px;
+    }
+    .section8{
+        padding: 25px 50px 20px 50px;
+        margin: 10px 0 10px 50px;
+        width: 70%; 
+    }
+    .section9{
+        padding: 25px 50px 20px 50px;
+        width: 70%;
+        margin: 10px 0 10px 50px; 
+    }
+    
+    .section10{
+        padding: 25px 50px 20px 50px;
+        width: 70%; 
+        margin: 10px 0 10px 50px;
+    }
+    .section11{
+        width: 65%;
+        height: 280px;
+        margin: 50px 50px 10px 50px;
+        padding: 10px 10px 10px 10px;
+    }
+    
+    .formularioContacto{
+        width: 100%;
+        margin: 20px 0;
+    }
+    
+}
+@media (max-width:993px){
+    .menu{
+        margin: 30px;
+    }
+    a{
+        margin: 10px;
+    }
+    header{
+        height: 93%;
+        
+    }
+    .section3{
+        padding: 20px 22px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .cabecera2{
+        padding-top: 148px;
+        font-size: 56px;
+    }
+    .section5{
+        padding: 50px 0 20px 100px;
+    }
+    .section7{
+        width: 55%;
+        height: 347px;
+        margin: 50px;   
+    }
+    .img{
+        width: 97%;
+    }
+    .TServicios{
+        margin: 10px 0 10px 52px;
+    }
+    .section11{
+        width: 90%;
+        height: 264px;
+        margin: 50px 50px 10px 50px;
+        padding: 10px 10px 10px 10px;
+        
+    }
+    .section12{
+        padding: 20px 20px 20px 20px;
+        margin: 0 100px;
+        width: 92%;
+    }
+    .mapa{
+        width: 100%;
+    }   
+}
+@media (max-width:768px){
+    .section3{
+        flex-direction: column;
+        padding: 30px 250px 30px 250px;
+        margin: 10px 0 10px;
+        display: flex;
+    }
+    .cabecera2{
+        padding-top: 150px;
+        font-size: 50px;
+    }
+    .cabecera p{
+        font-size: 15px;
+    }
+    .section3 p{
+        padding: 10px 0 10px;
+    }
+    .section5{
+        padding: 20px 10px 20px 20px;
+        margin: 20px 0 20px 160px;
+        width: 50%;    
+    }
+    .section6{
+        padding: 20px 10px 20px 20px; 
+        margin: 20px 0 20px 160px;
+        width: 53%;  
+        height: 330px;   
+    }
+    .section7{
+        width: 53%;
+        height: 200px;
+        margin: 20px 0 20px 160px;
+        padding: 20px 10px 20px 20px;   
+    }
+    .img{
+        width: 57%;
+        height: 120px;
+        margin: 20px 0 20px 160px;
+    }
+    .padre{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .section8{
+        padding: 25px 50px 20px 50px;
+        margin: 15px 0 10px 100px;
+        width: 60%; 
+    }
+    .section9{
+        padding: 25px 50px 20px 50px;
+        width: 60%;
+        margin: 15px 0 10px 100px; 
+        background-color: rgba(198, 198, 198, 0.502);   
+    }
+    .section10{
+        padding: 25px 50px 20px 50px;
+        width: 60%; 
+        margin: 15px 0 10px 100px;
+        background-color: rgba(198, 198, 198, 0.502);   
+    }
+    .section11{
+        background:rgb(44, 41, 55);
+        color: white;
+        width: 60%;
+        height: 200px;
+        margin: 20px 20px 20px 100px;
+        padding: 20px 50px 25px 50px;
+        
+    }
+    .padre2{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .TServicios{
+        margin: 10px 0 10px 100px;
+    }
+    .padreContacto{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px 10px 20px;
+    }
+    .formInput{
+        width: 55%;
+    }
+    .mensaje{
+        width: 58%;
+    }
+    .enviar{
+        width: 55%;
+        background-color:rgb(235, 63, 0);
+        text-align: center;
+    }
+    .formularioContacto{
+        width: 60%;
+        text-align: center;
+        margin: 20px 20px 20px 100px;
+        padding: 20px 50px 25px 50px;
+    }
+    .section12{
+        padding: 25px 50px 25px 50px;
+        margin: 20px 20px 20px 100px;
+        width: 50%;
+    }  
+    .contenedorNegroMapa{
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        padding: 25px 20px 25px 20px;
+        margin: 20px 20px 20px 50px;
+        width: 70%;
+    }
+    .mapa{
+        width: 100%;
+        padding: 25px 20px 25px 55px;
+        margin: 20px 20px 20px 50px;
+        width: 70%;
+    }
+}
+@media (max-width:601px) {
+     h1{
+        margin: auto;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    a{
+        margin: 0;
+    }
+    header{
+        height: 150px;
+    }
+    .formulario{
+        padding: 0 5px;
+    }
+    .section3{
+        padding: 30px 250px 30px 172px;
+    }
+    .section7{
+        height: 279px;
+        margin: 20px 0 20px 130px;
+    }
+    .img{
+        margin: 20px 0 20px 134px;
+    }
+    .section6{
+        margin: 20px 0 20px 130px;
+    }
+    .section5{
+        margin: 20px 0 20px 130px;
+    }
+    .section8{
+        margin: 15px 0 10px 70px;
+    }
+    .section9{
+        margin: 15px 0 10px 70px;
+    }
+    .section10{
+        margin: 15px 0 10px 70px;
+    }
+    .section11{
+        margin: 20px 20px 20px 70px;
+    }
+    .formularioContacto{
+        margin: 20px 20px 20px 65px;
+    }
+    .section12{
+        margin: 20px 20px 20px 58px;
+    }
+    .mapa{
+        width: 110%;
+        padding: 25px 20px 25px 25px;
+    }
+    
+}
 
